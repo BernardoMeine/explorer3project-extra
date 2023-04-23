@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  background: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header {
+  width: 419px;
+
+  margin-top: 140px;
+}
+
+header h1 {
+  font-family: 'Staatliches';
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 400;
+  margin-bottom: 18px;
+
+  color: #fff;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #FFFFFF;
+}
+
+form {
+  margin-top: 58px;
+  background: #FFFFFF;
+  min-height: 300px;
+  border-radius: 20px 20px 0 0;
+
+  padding: 64px 66px 64px 64px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+fieldset legend {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E6E6F0;
+
+  color: #535971;
+}
+
+fieldset {
+  border: none;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4E4958;
+
+  margin-bottom: 8px;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  height: 56px;
+  padding: 0 24px;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #6c6a71;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+  justify-content: space-between;
+}
+
+.col-2 > div {
+  width: 100%;
+}
+
+.input-wrapper span {
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #6c6a71;
+}
+
+h3 {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  /* identical to box height, or 170% */
+
+
+  color: #535971;
+  border: none;
+}
+
+.col-3a {
+  margin-bottom: 32px;
+}
+
+.col-3a .input-wrapper, .col-3b .input-wrapper {
+  margin-top: 8px;
+}
+
+.last-lg {
+  margin-bottom: 32px;
+}
+
+.col-3a, .col-3b {
+  display: flex;
+  gap: 22px;
+}
+
+.col-3a > div:nth-child(1) , .col-3b > div:nth-child(1) {
+  width: 100%;
+}
+
+footer {
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  width: 750px;
+  height: 160px;
+
+  display: flex;
+  align-items: center;
+  justify-content:center;  
+}
+
+footer input {
+  width: 608px;
+  height: 55px;
+  padding: 15px 40px;
+
+  background: #FF5374;
+  border:none;
+  border-radius: 20px;
+
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+footer input:hover {
+  background: #FF3374;
+}
+
+
+
+
+
+
+
+
